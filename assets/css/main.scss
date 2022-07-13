@@ -31,10 +31,9 @@ display: none;
 }
 
 div.highlighter-rouge, figure.highlight {
-
 background: #dddddd;
 color: #030303;
-font-family: Consolas,"Lucida Console",monospace;
+font-family: Consolas,"Lucida Console",monospace !important;
 font-size: .75em;
 }
 
@@ -49,6 +48,7 @@ padding-bottom: 0.1rem;
 background: #efefef;
 border-radius: 4px;
 font-size: 1em;
+  font-family: Consolas,"Lucida Console",monospace !important;
 }
 
 tt, code, kbd, samp, pre {
