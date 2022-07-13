@@ -149,3 +149,7 @@ kbd{
 pre.highlight {
     padding: 33px !important;
 }
+::selection {
+    color: #020202;
+    background: #ededed;
+}
