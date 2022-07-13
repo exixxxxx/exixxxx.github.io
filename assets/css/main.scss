@@ -40,7 +40,7 @@ font-size: .75em;
 
 
 .page__content p, .page__content li, .page__content dl {
-font-size: 16px important;
+font-size: 16px !important;
 }
 
 .page__content :not(pre)>code {
@@ -49,4 +49,8 @@ padding-bottom: 0.1rem;
 background: #efefef;
 border-radius: 4px;
 font-size: 1em;
+}
+
+tt, code, kbd, samp, pre {
+    font-family: Consolas,"Lucida Console",monospace !important;
 }
