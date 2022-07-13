@@ -65,4 +65,9 @@ background-color: #f6f6f6 !important;
 border-radius: 2px !important;
 }
 
-
+.page__related {
+display: none;
+}
+.page__content+.pagination, .page__meta+.pagination, .comment__date+.pagination, .page__share+.pagination, .page__comments+.pagination {
+display: none;
+}
