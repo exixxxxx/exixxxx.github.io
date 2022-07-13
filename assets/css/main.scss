@@ -110,9 +110,11 @@ padding: 0em !important;
     color: #5c5c5c;
 }
 a {
-    color: #5c5c5c;
+    color: #5c5c5c !important;
 }
-
+a:visited {
+    color: #5c5c5c !important;
+}
 em {
   font-style: unset; !important;
     background-color: #fcfcfc;
