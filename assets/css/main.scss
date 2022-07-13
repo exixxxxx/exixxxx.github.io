@@ -117,7 +117,6 @@ a:visited {
 }
 
 strong {
-    font-style: unset!important;
     background: #efefef;
     color: #3e3e3e;
     line-height: 20px;
@@ -126,11 +125,10 @@ strong {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-    font-weight: 400 !important;
+    font-weight: 400!important;
 }
 
 .kbd{
-  font-style: unset!important;
     background-color: #fcfcfc;
     border: 1px solid #ccc;
     color: #3e3e3e;
