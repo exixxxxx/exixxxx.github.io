@@ -9,6 +9,15 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
+div.highlighter-rouge, figure.highlight {
+background-color: #f6f6f6;
+color: #373737 !important;
+font-family: Consolas,"Lucida Console",monospace !important;
+font-size: .75em;
+border-radius: 2px;
+}
+
+
 li.masthead__menu-item {
 display: none;
 }
