@@ -54,3 +54,11 @@ font-size: 1em;
 tt, code, kbd, samp, pre {
     font-family: Consolas,"Lucida Console",monospace !important;
 }
+blockquote {
+    margin: 11px 0px;
+    padding: 15px;
+    /* padding-right: 1em; */
+    font-style: normal;
+    border-left: 0em solid #6f777d;
+    background-color: #f6f6f6;
+}
