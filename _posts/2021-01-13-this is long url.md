@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "안녕하세요 이건 제목입니다"
+title: "this is url"
 sidebar: true
 toc: true  
 toc_sticky:  true
