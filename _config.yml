@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "exnote"
+title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "ex"
+name                     : ""
 description              : "An amazing website."
 url                      :  "https://exixxxx.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
