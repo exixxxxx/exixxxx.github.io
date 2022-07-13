@@ -146,14 +146,14 @@ kbd{
     word-wrap: break-word;
 }
 /*리스트 목록 시작*/
-li {
+.page__content li {
 	margin-left:-18px;
 	line-height:26px;
 }
-ol {
+.page__content ol {
 	list-style:none;
 }
-ol>li:before {
+.page__content ol>li:before {
 	content:counter(list-item);
 	width:14px;
 	height:14px;
@@ -169,7 +169,7 @@ ol>li:before {
 	line-height:3px;
 	display:inline-flex;
 }
-ul ol>li:before, ol ol>li:before {
+.page__content ul ol>li:before, .page__content ol ol>li:before {
 	content:counter(list-item);
 	width:9px;
 	height:9px;
@@ -183,19 +183,19 @@ ul ol>li:before, ol ol>li:before {
 	padding:5px;
 	BORDER:#dfdede 1px solid;
 }
-ul li::marker {
+.page__content ul li::marker {
 	color:#999;
 	font-size:13.5px;
 }
-ul ul li::marker {
+.page__content ul ul li::marker {
 	color:#999;
 	font-size:13.5px;
 }
-ol ul li::marker {
+.page__content ol ul li::marker {
 	color:#a9a9a9;
 	font-size:13.5px;
 }
-ol ol ul li::marker {
+.page__content ol ol ul li::marker {
 	color:#a9a9a9;
 	font-size: 13.5px;
 }
