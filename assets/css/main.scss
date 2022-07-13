@@ -40,3 +40,28 @@ html {
 li.masthead__menu-item {
     display: none;
 }
+.page__footer-copyright {
+display: none;
+}
+
+
+.page__footer-follow ul {
+display: none;
+}
+
+
+.page__share {
+display: none;
+}
+
+.page__related-title {
+display: none;
+}
+
+div.highlighter-rouge, figure.highlight {
+
+background: #dddddd;
+color: #030303;
+font-family: Monaco,Consolas,"Lucida Console",monospace;
+font-size: .75em;
+}
