@@ -30,15 +30,6 @@ display: none;
 display: none;
 }
 
-div.highlighter-rouge, figure.highlight {
-background-color: #f6f6f6;
-color: #373737;
-font-family: Consolas,"Lucida Console",monospace !important;
-font-size: .75em;
-border-radius: 2px;
-}
-
-
 .page__content p, .page__content li, .page__content dl {
 font-size: 16px !important;
 }
@@ -64,3 +55,12 @@ border-left: 0em solid #6f777d !important;
 background-color: #f6f6f6 !important;
 border-radius: 2px !important;
 }
+
+div.highlighter-rouge, figure.highlight {
+background-color: #f6f6f6;
+color: #373737 !important;
+font-family: Consolas,"Lucida Console",monospace !important;
+font-size: .75em;
+border-radius: 2px;
+}
+
